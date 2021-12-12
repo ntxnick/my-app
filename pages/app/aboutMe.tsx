@@ -1,8 +1,19 @@
 import type { NextPage } from 'next'
+import { Styling } from '../Layout/Styling'
+import { Text, VStack } from '@chakra-ui/react'
 
 const aboutMe: NextPage = () => {
   return (
-  <h1>Hit the about me!</h1>
+    <>
+    <VStack>
+      <Text>
+        Something here
+      </Text>
+      <Styling>
+        <Text>Hit the about me!</Text>
+      </Styling>
+    </VStack>
+    </>
   )
 }
 

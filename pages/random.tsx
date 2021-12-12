@@ -8,7 +8,7 @@ const Random: NextPage = () => {
       This is the heading
     </Heading>
     <Text> 
-        Testing out Chakra-ui!!
+      Testing out Chakra-ui!!
     </Text>
     </VStack>
   );
