@@ -10,7 +10,7 @@ export const Styling: React.FC = ({ children }) => {
       <HStack>
 
       <Spacer />
-        <Link href="/">
+        <Link href="/holderInfo">
           <Text p={2}>Homepage</Text> 
         </Link>
         <Spacer />
