@@ -10,12 +10,12 @@ export const Styling: React.FC = ({ children }) => {
       <HStack>
 
       <Spacer />
-        <Link href="/holderInfo">
+        <Link href="/">
           <Text p={2}>Homepage</Text> 
         </Link>
         <Spacer />
-        <Link href="/random">
-          <Text p={2}>Random</Text>
+        <Link href="/app/resume">
+          <Text p={2}>Resume</Text>
         </Link>
         <Spacer />
         <Link href="/app/aboutMe">
